@@ -1,0 +1,8 @@
+config:
+  gcp:project: test-plumi
+  gcp:region: asia-northeast1
+  my-container-service:appPath: app
+  my-container-service:concurrency: "10"
+  my-container-service:containerPort: "8080"
+  my-container-service:cpu: "0"
+  my-container-service:memory: 1Gi
